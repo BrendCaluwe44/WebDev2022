@@ -1,0 +1,23 @@
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+
+    height: 30px;
+    width: 30px;
+    margin-bottom: -5px;
+    background-image: url("../images/square-with-round-corners.png");
+}
+.checked::before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/check-box.png);    
+}
