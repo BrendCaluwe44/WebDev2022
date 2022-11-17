@@ -1,0 +1,183 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #252525;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(10,9,121,1) 0%, rgba(16,176,179,1) 100%);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.personal>ul>li{
+    list-style-type: circle;
+}
+.personal>ul>li>img{
+    width: 200px;
+    height: 200px;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-spacing: 0px;
+}
+td{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+li{
+    padding-bottom: 7px;
+}
+section{
+    border-bottom: 1px black dotted;
+    background-color: #078486;
+    padding-left: 7px;
+}
+section >h2 {
+    padding-top: 5px;
+}
+.gaming{
+    display: inline;
+}
+.gaming >a {
+    margin-left: 50px;
+}
+.gaming >a>img{
+    margin-left: 8px;
+}
+.likes>ol{
+    border: 2px black solid;
+}
+.likes>ol>li{
+    margin-top: 10px;
+}
+.likes>ol>li>ul{
+    margin-top: 5px;
+}
+.likes>ol>li>ul>li{
+  display: inline;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+#prognose{
+    padding-bottom: 7px;
+}
+#vrienden{
+    margin-top: 20px;
+}
+.onbekend{
+    background-color: red;
+}
+
+
+
+.datagrid table { 
+    border-collapse: collapse;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .datagrid {
+        font: normal 12px/150% Georgia, Times New Roman, Times, serif;
+        background: #fff;
+        overflow: hidden;
+        border: 1px solid #652299;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    
+    .datagrid table td,
+    .datagrid table th {
+        padding: 13px 20px;
+    }
+    
+    .datagrid table thead th {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #87BFFF), color-stop(1, #577F3D));
+        background: -moz-linear-gradient(center top, #87BFFF 5%, #577F3D 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87BFFF', endColorstr='#577F3D');
+        background-color: #87BFFF;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+        border-left: 1px solid #714399;
+    }
+    
+    .datagrid table thead th:first-child {
+        border: none;
+    }
+    
+    .datagrid table tbody td {
+        color: #F02929;
+        border-left: 4px solid #47F42C;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .datagrid table tbody .alt td {
+        background: #F4E3FF;
+        color: #6B1111;
+    }
+    
+    .datagrid table tbody td:first-child {
+        border-left: none;
+    }
+    
+    .datagrid table tbody tr:last-child td {
+        border-bottom: none;
+    }
+    
+    .datagrid table tfoot td div {
+        border-top: 1px solid #652299;
+        background: #F49D51;
+    }
+    
+    .datagrid table tfoot td {
+        padding: 0;
+        font-size: 12px
+    }
+    
+    .datagrid table tfoot td div {
+        padding: 2px;
+    }
+    
+    .datagrid table tfoot td ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: right;
+    }
+    
+    .datagrid table tfoot li {
+        display: inline;
+    }
+    
+    .datagrid table tfoot li a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 8px;
+        margin: 1px;
+        color: #FFFFFF;
+        border: 5px solid #5F9939;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #652299), color-stop(1, #4D1A75));
+        background: -moz-linear-gradient(center top, #652299 5%, #4D1A75 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#652299', endColorstr='#4D1A75');
+        background-color: #652299;
+    }
+    
+    .datagrid table tfoot ul.active,
+    .datagrid table tfoot ul a:hover {
+        text-decoration: none;
+        border-color: #4D1A75;
+        color: #FFFFFF;
+        background: none;
+        background-color: #652299;
+    }

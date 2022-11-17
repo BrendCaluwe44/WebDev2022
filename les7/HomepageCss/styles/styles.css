@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #252525;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(10,9,121,1) 0%, rgba(16,176,179,1) 100%);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.personal>ul>li{
+    list-style-type: circle;
+}
+.personal>ul>li>img{
+    width: 200px;
+    height: 200px;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-spacing: 0px;
+}
+td{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+li{
+    padding-bottom: 7px;
+}
+section{
+    border-bottom: 1px black dotted;
+    background-color: #078486;
+    padding-left: 7px;
+}
+section >h2 {
+    padding-top: 5px;
+}
+.gaming{
+    display: inline;
+}
+.gaming >a {
+    margin-left: 50px;
+}
+.gaming >a>img{
+    margin-left: 8px;
+}
+.likes>ol{
+    border: 2px black solid;
+}
+.likes>ol>li{
+    margin-top: 10px;
+}
+.likes>ol>li>ul{
+    margin-top: 5px;
+}
+.likes>ol>li>ul>li{
+  display: inline;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+#prognose{
+    padding-bottom: 7px;
+}
+
