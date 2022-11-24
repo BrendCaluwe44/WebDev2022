@@ -3,9 +3,6 @@ body{
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body:first-child{
-
-}
 
 nav{
     background-color: #444444;
