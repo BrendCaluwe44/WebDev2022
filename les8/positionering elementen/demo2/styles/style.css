@@ -1,0 +1,39 @@
+body{
+    background-color: lightslategray;
+}
+#wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 200px;
+    height: 180px;
+}
+header{
+    text-align: center;
+}
+nav{
+    padding-left: 10px;
+    float: left;
+    background-color: red;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+section{
+    float: right;
+    width: calc(70% - 15px);
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    padding-left: 15px;
+}
+footer{
+    text-align: center;
+    clear: both;
+    background-color: aqua;
+    height: 50px;
+}

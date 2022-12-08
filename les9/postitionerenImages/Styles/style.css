@@ -1,0 +1,28 @@
+article:nth-child(even) img{
+    float: right;
+}
+article:nth-child(even) p{
+    float: left;
+}
+article:nth-child(odd) img{
+    float: left;
+}
+article:nth-child(odd) p{
+    float: right;
+}
+article{
+    margin-bottom: 10px;
+    border: 2px black solid;
+    font-size: 1.25em;
+    overflow: hidden;
+}
+img{
+    margin: 10px;
+}
+h2{
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    display: block;
+}
