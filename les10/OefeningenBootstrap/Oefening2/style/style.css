@@ -1,0 +1,10 @@
+body>div>div>div{
+    height: 200px;
+    border: 5px white solid;
+}
+body>div>div>div:nth-child(odd){
+    background-color: lightgray;
+}
+body>div>div>div:nth-child(even){
+    background-color: gray;
+}

@@ -1,0 +1,17 @@
+.darkgrey{
+    background-color: grey;
+}
+.grey{
+    background-color: lightgray;
+}
+.row{
+    height: 200px;
+}
+.row>div{
+    border: 5px white solid;
+}
+
+/*div[class*='col']{
+    class beginnend met col
+}
+*/
